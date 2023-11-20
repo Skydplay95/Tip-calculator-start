@@ -1,5 +1,8 @@
 ## Tip Calculator
 
+Day 2 project 100 Days of Code Python :
+I made the one in main.py
+
 # Instructions
 
 If the bill was $150.00, split between 5 people, with 12% tip. 

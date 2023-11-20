@@ -7,12 +7,20 @@
 
 #Write your code below this line 👇
 print("Welcome to the tip calculator!")
+
+#user input the amount of the bill 
 bill = float(input("What's was the total  bill? $"))
 
+#user input the percentage of the tip he wants to give
 tip = int(input("What percentage tip would you like to give ? 10, 12, or 15? "))
+
+#calculate tip à a percentage 
 tip = 1 + (tip / 100)
+
+#input the number of person to split the bill with 
 people = int(input("How many people to split the bill ? "))
 
+#calcultate tip per persone and round it to 2 decimal and print it 
 tip_per_person = (bill * tip) / people
 tip_per_person = round(tip_per_person, 2)
 
